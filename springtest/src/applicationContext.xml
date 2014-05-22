@@ -14,7 +14,7 @@
 			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
 			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
 
-	<bean id="ab" class="com.hex.hellospring">
+	<bean id="hellospring" class="com.hex.hellospring">
 		<property name="name">
 			<value>spring</value>
 		</property>

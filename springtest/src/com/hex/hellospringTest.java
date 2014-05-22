@@ -9,7 +9,7 @@ public class hellospringTest {
 	@Test
 	public void test() {
 		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-		hellospring hs = (hellospring) ac.getBean("ab");
+		hellospring hs = (hellospring) ac.getBean("hellospring");
 		hs.sayhello();
 //		fail("Not yet implemented");
 	}
